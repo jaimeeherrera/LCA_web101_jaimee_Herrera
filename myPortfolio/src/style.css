@@ -34,10 +34,12 @@ article {
      border: 10px solid black; 
 
 }
-article:hover { 
+article:hover, article::first-letter:hover { 
     background: rgb(175, 18, 70);
     color:white;
 }
+
+
 
 #firstheader {
     background-color: pink;
