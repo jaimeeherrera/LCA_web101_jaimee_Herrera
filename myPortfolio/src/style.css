@@ -1,5 +1,5 @@
 body {
-    background-color:#C0C0C0;
+    background-image: url('img/winter.jpg');
     font-family: Helvetica,Arial, sans-serif;
     font-size: 1000;
     text-align: center;
@@ -34,9 +34,13 @@ article {
      border: 10px solid black; 
 
 }
-article:hover, article::first-letter:hover { 
+article:hover { 
     background: rgb(175, 18, 70);
     color:white;
+}
+
+article::first-letter {
+    color: blue;
 }
 
 
