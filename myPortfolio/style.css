@@ -41,6 +41,7 @@ body {
     padding: 20px; 
     text-align: center;
     border: 2px solid white;
+    text-decoration: none;
   }
   
   .has-border {
@@ -199,5 +200,6 @@ h1 {
 @media (max-width: 576px) {
   body{ 
     background-color: purple;
+    text-align: center;
   }
 }
