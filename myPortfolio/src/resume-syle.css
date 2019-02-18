@@ -1,23 +1,83 @@
-header {
-    font-family: Helvetica, sans-serif;
-    background-color:
-    color: black;
-  }
-
-.objection {
-  background-color:;
-  color: black;
-  padding: 10px;
+body { 
+ background-color: rgb(255, 255, 255);
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: black;
+  color:white;
+  font-family: helvetica;
+  height: 150px;
+  font-size: 40px;
+  padding: 22px;
+}
+.container {
+  display:flex;
+  flex-direction: column;
+  margin: 75px;
+  height: 20%;
+  padding: 20px;
+}
+.jobname { 
+  color:white;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.resumename {
+  color: rgb(43, 189, 226);
+}
+.bodycontent { 
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(0,0,0,0.2);
 
 }
-
-.WorkTitles {
-  color: red;
-  text-size: 20px;
-
+.wrapper {
+  margin: 25px;
+}
+.section-left {
+  background-color: rgb(0, 204, 255);
+  
+}
+.section-left ul { 
+  list-style-type: none;
+  margin-left:-40px;
+  text-transform:capitalize;
+  font-size: 14px;
 }
 
-#firstname {
-  background: color; 
+h2 {
+  text-transform: uppercase;
+  font-weight: bold; 
+  letter-spacing: 1px;
+}
 
+h3{
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-family: serif;
+  font-weight: normal;
+}
+h4 { 
+  font-family:serif;
+  font-weight:normal; 
+  font-style:italic;
+  letter-spacing: 1px;
+  margin: -10px;
+}
+
+.section-right {
+  flex: 2;
+}
+.section-right .wrapper { 
+  margin-left: 50px;
+}
+
+.section-right ul {
+  margin-left: -25px;
+}
+
+.footer {
+  background-color : black;
 }
