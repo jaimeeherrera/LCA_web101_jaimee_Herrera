@@ -11,6 +11,7 @@ body {
     margin:0;
     text-align: left;
 
+
 }
 #header {
     background-color: black;
@@ -59,6 +60,10 @@ article::first-letter {
     padding:0px;
     color: black;
     }
+
+.Portfolio {
+    align-content: center;
+}
 #footer {
     padding: 10px;
     background-color: black;
