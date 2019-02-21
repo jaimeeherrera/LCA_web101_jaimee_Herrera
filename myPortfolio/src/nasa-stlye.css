@@ -1,0 +1,29 @@
+.main {
+    background-image:url(img/galazy.jpg);
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 850px;
+    background-position: center;
+    justify-content: center;
+    align-items:center;
+    color:white
+}
+
+article {
+    color: black;
+}
+
+.officeinfo {
+    display: flex;
+}
+
+.contactinfo {
+    display:flex;
+}
+
+.content {
+    background-color:rgba(175, 175, 175, 0.938);
+    height: 325px;
+    width: 850px;
+    margin-top: 25px;
+}
