@@ -43,7 +43,31 @@
           "footer";
       
       }
-
+      .calculator {
+        width: 300px;
+        display: flex;
+        flex-flow: wrap row;
+        justify-content:space-around;
+        padding: 25px 10px 10px 10px;
+        border-radius: 2px; 
+        background-color: grey;
+      }
+      .screen2 {
+          width: 300px;
+          background-color: white;
+          border-bottom: black;
+          justify-content: flex-end;
+      }
+      .item {
+          height: 24px;
+          width:86px;
+          margin-top:10px;
+          position: relative;
+          flex-flow: wrap row;
+          font-size: 22px;
+          background-color: pink;
+      }
+  
       p {
           font-size: 2em;
           margin: 80px;
