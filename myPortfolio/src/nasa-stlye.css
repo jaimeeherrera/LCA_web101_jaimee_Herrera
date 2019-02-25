@@ -6,24 +6,57 @@
     background-position: center;
     justify-content: center;
     align-items:center;
-    color:white
+    color:white;
+
 }
 
+.Nasa {
+    font-family: 'Anton', sans-serif;
+    font-size: 90px;
+    position: absolute;
+    padding: 150px 100px 200px 350px;
+    letter-spacing: 15px:
+}
 article {
     color: black;
 }
 
-.officeinfo {
-    display: flex;
+.box { 
+    padding: 30px;
 }
 
-.contactinfo {
-    display:flex;
+.button { 
+    padding: 10px;
+    font-size: 12px;
+    display: inline-block;
+    color: white;
+    background-color: gray;
+    font-weight: bold;
+    
+}
+
+.socialmedia { 
+}
+
+h3 { 
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.content > div {
+    width: 270px;
+    height: 324px;
+    
 }
 
 .content {
-    background-color:rgba(175, 175, 175, 0.938);
-    height: 325px;
+    display: flex;
+    justify-content: space-around ;
+    background-color: rgb(226, 222, 222);
+  margin-bottom: 10px;
     width: 850px;
+    height: 325px;
+    margin-right: -1px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Raleway', sans-serif;
     margin-top: 25px;
 }
