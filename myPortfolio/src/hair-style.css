@@ -1,0 +1,14 @@
+header { 
+    padding: 10px; 
+    text-align: center;
+    align-content: center;
+    height: 150px;
+    background-repeat: no-repeat;
+    justify-content: center;    
+    
+}
+
+main { 
+    background-image: url(img/the-beacon.jpg);
+    height: 550px;
+}
