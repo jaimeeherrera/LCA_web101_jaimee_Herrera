@@ -1,5 +1,6 @@
 header { 
     padding: 10px; 
+    margin: 20px 10px 10px 10px;
     text-align: center;
     align-content: center;
     height: 150px;
@@ -8,7 +9,168 @@ header {
     
 }
 
+nav{
+    margin: 10px 10px 100px;
+    padding: 20px 10px;
+}
+
+a { 
+    color: black;
+    text-decoration: none;
+    font-style: bold;
+    text-transform: uppercase;
+    margin: 10px 10px 20px 30px;
+    padding: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+
+}
 main { 
     background-image: url(img/the-beacon.jpg);
-    height: 550px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.para1 { 
+    background-color: white; 
+    color: black;
+    display: inline-block;
+    font-size: 25px; 
+    margin: 75px 0px 35px 47%;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.para2 { 
+    background-color: #252525; 
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    border: 20px; 
+    margin: -10px 0px 35px 47% ;
+    padding: 10px;
+}
+
+.para3 { 
+    background-color: #252525; 
+    color: white;
+    display: inline-block;
+    font-size: 25px; 
+    margin: -25px 0px 35px 47% ;
+    padding: 10px;
+}
+
+.para4 { 
+    background-color: #252525; 
+    color: white;
+    display: inline-block;
+    font-size: 25px; 
+    margin: -20px 0px 20px 47% ;
+    padding: 10px;
+}
+
+.button {
+    display: inline-block;
+    margin: 0px 0px 0px 47%;
+    font-size: 25px;
+    background-color:#0ba39c;
+    color: white;
+    text-transform: uppercase; 
+    padding: 26px 27px 22px;
+    
+}
+.parents { 
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 20px;
+}
+
+p { 
+    display: block;
+    padding: 60px -10px -50px 12px;
+    color:white;
+    margin: 50px 10px 20px 10px;
+    background-color:black;
+    border: 10px;
+    text-align: center;
+      
+}
+
+.parents p {
+    height: 50px;  
+    padding: 20px;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 60px;
+}
+
+.Actor { 
+    height: 240px;   
+    width: 250px;
+    background-image: url(img/the-actor.jpg);
+}  
+
+.Father { 
+    background-image: url(img/the-father.jpg);
+    height: 240px; 
+    width : 300px;
+
+}
+
+ .Thenerd { 
+     background-image: url(img/the-nerd.jpg);
+     height: 240px;
+     width: 300px; 
+ }
+
+ span { 
+     text-align: center;
+     color:black;
+     padding: 219px;
+     font-size: 25px;
+     margin: 20px 0px 24px 25px;
+ }
+
+footer { 
+    background-color: black;
+    padding: 20px;
+    margin: 40px 0px;
+    color: white;
+}
+
+.links { 
+    display: inline-block;
+    background-color: white;
+    padding: 20px; 
+    margin: 20px;
+    align-items: right;
+    align-content: right;
+    text-align: right;
+    
+}
+.copyright { 
+    float:left;
+    margin: 20px;
+
+}
+#twitter {
+    background-color: white;
+    padding: 44px;
+    align-items: right;
+}
+
+.links{ 
+    display: block;
+    padding: 10px;
+    margin: 0px;
+    background-color:black;
+    align-items: right;
+    align-items:right;
+    align-content: right;
+    height: 44px;
 }
