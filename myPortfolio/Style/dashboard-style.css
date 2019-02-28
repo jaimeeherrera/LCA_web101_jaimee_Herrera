@@ -11,7 +11,7 @@
         grid-area: main;
         text-align: center;
         font-size: 20px;
-        background-image: url(/myPortfolio/Images/download.jpg) ;
+        background-image: url(../Images/download.jpg) ;
         background-repeat: no-repeat;
         background-size: 100%;
       }
