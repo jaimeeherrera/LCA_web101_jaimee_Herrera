@@ -26,7 +26,7 @@ a {
 
 }
 main { 
-    background-image: url(img/the-beacon.jpg);
+    background-image: url(/myPortfolio/Images/the-beacon.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -112,18 +112,18 @@ p {
 .Actor { 
     height: 240px;   
     width: 250px;
-    background-image: url(img/the-actor.jpg);
+    background-image: url(/myPortfolio/Images/the-actor.jpg);
 }  
 
 .Father { 
-    background-image: url(img/the-father.jpg);
+    background-image: url(/myPortfolio/Images/the-father.jpg);
     height: 240px; 
     width : 300px;
 
 }
 
  .Thenerd { 
-     background-image: url(img/the-nerd.jpg);
+     background-image: url(/myPortfolio/Images/the-nerd.jpg);
      height: 240px;
      width: 300px; 
  }
