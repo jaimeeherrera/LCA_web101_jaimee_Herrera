@@ -1,62 +1,56 @@
 .main {
-    background-image: url("../Images/galazy2.jpg");
-    background-repeat: no-repeat;
-    height: 450px;
-    width: 850px;
-    background-position: center;
-    justify-content: center;
-    align-items:center;
-    color:white;
-
+	background-image: url("../Images/galazy2.jpg");
+	background-repeat: no-repeat;
+	height: 450px;
+	width: 850px;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
+	color: white;
 }
 
 .Nasa {
-    font-family: 'Anton', sans-serif;
-    font-size: 90px;
-    position: absolute;
-    padding: 150px 100px 200px 350px;
-    letter-spacing: 15px:
+	font-family: 'Anton', sans-serif;
+	font-size: 90px;
+	position: absolute;
+	padding: 150px 100px 200px 350px;
+	letter-spacing: 15px;
 }
 article {
-    color: black;
+	color: black;
 }
 
-.box { 
-    padding: 30px;
+.box {
+	padding: 30px;
 }
 
-.button { 
-    padding: 10px;
-    font-size: 12px;
-    display: inline-block;
-    color: white;
-    background-color: gray;
-    font-weight: bold;
-    
+.button {
+	padding: 10px;
+	font-size: 12px;
+	display: inline-block;
+	color: white;
+	background-color: gray;
+	font-weight: bold;
 }
 
-.socialmedia { 
-}
-
-h3 { 
-    text-transform: uppercase;
-    font-weight: bold;
+h3 {
+	text-transform: uppercase;
+	font-weight: bold;
 }
 .content > div {
-    width: 270px;
-    height: 324px;
-    
+	width: 270px;
+	height: 324px;
 }
 
 .content {
-    display: flex;
-    justify-content: space-around ;
-    background-color: rgb(226, 222, 222);
-  margin-bottom: 10px;
-    width: 850px;
-    height: 325px;
-    margin-right: -1px;
-    font-family: 'Anton', sans-serif;
-font-family: 'Raleway', sans-serif;
-    margin-top: 25px;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(226, 222, 222);
+	margin-bottom: 10px;
+	width: 850px;
+	height: 325px;
+	margin-right: -1px;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 25px;
 }
