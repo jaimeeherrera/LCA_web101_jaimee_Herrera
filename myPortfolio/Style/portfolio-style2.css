@@ -19,10 +19,7 @@
         "banner  main"
         "footer footer";
     }
-    nav ul {
-      display: flex;
-      justify-content: space-between;
-    }
+
   }
   
 header {
