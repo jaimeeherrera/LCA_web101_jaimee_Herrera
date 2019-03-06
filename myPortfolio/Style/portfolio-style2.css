@@ -129,7 +129,7 @@ button:hover {
   
 .button:hover {
     background-color: white;
-    color: black;
+    color: rgba(0, 0, 0, 0.815);
   }
 
   .buttons1 { 
