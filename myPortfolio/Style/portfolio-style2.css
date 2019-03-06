@@ -1,0 +1,155 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+      "header"
+      "nav"
+      "main"
+      "aside"
+      "banner"
+      "footer";
+  }
+  
+  @media (min-width: 700px) {
+    .container {
+      grid-template-columns: 1fr 3fr;
+      grid-template-areas: 
+        "header  header"
+        "nav     nav"
+        "aside   main"
+        "banner  main"
+        "footer footer";
+    }
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+header {
+    grid-area: header;
+    background-color: white;
+    font-size: 44px;
+    text-transform: uppercase;
+    padding: 55px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+  main {
+    background-color: black;
+    min-height: calc(100vh - 54px);
+    grid-area: main;
+  }
+
+  iframe {
+      padding: 25px;
+  }
+  nav {
+    background-color: white;
+    grid-area: nav;
+    font-size: 24px;
+    justify-items: center;
+    align-content: flex-end;
+
+  }
+
+  .button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 40px ;
+    border-radius: 20px; 
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+
+  .container-form {
+      padding-top: 50px;
+      width: 90%;
+      height: 70%;
+      padding: 20px;
+      border-radius: 5px;
+  }
+
+  input [type=text], select,textarea {
+    width: 100%;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  #fname { 
+      width: 100%;
+      height: 25px;
+  }
+
+  #lname{ 
+      width: 100%; 
+      height: 25px;
+  }
+
+button { 
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border: none; 
+}
+button:hover { 
+    background-color: rgb(54, 50, 50);
+}
+
+.Contacttitle { 
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+  label { 
+      font-size: 20px;
+      padding-bottom: 20px;
+
+  }
+.submit { 
+    background-color: blue; 
+
+}
+  
+.button:hover {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.815);
+  }
+
+  .buttons1 { 
+      display: flex; 
+      justify-content: center;
+      
+      
+  }
+  aside {
+    background-color: rgba(230, 228, 228, 0.979);
+    grid-area: aside;
+    
+  }
+ banner { 
+     background-color: white;
+ }
+ 
+ footer {
+    background-color: white;
+    grid-area: footer;
+  }
+  
+
