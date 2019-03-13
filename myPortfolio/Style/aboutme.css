@@ -1,0 +1,42 @@
+body  {
+    margin: 0px;
+    font-family: 'Questrial', sans-serif;
+}
+
+ul > li { 
+    font-size: 24px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px;
+    border: 2px;
+  
+} 
+
+main { 
+    float: left;
+    width: 30%;
+    padding: 250px;
+    padding-left: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: 20px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+#aboutmepic { 
+    border-radius: 20px;
+    margin: 50px;
+}
