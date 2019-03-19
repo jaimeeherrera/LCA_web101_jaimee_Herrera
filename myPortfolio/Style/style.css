@@ -15,6 +15,11 @@ body {
     height: 60%;
     margin: 3% 5%;
   }
+
+  .logo:hover { 
+    animation-name: flip; 
+    animation-duration: 3s;
+  }
   
   header {
     display: grid;
@@ -57,19 +62,48 @@ body {
     width: 100%;
   }
   
+
   #profile-pic {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin: 15% auto;
     grid-column: 2/3;
-  }
+    animation-name: bounceInLeft;
+    animation-duration: 4s;
   
+  }
+
+  #profile-pic:hover {
+    animation-name: flip;
+    animation-timing-function: ease;
+
+  }
+
+  .snow { 
+    animation-name: snowfall;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+  }
+
+  @keyframes snowfall{
+    0% {background-color: red; margin: 10px;}
+    35%  { background-color: yellow; margin: 50px;}
+    67% { background-color: pink; margin: 70px;}
+
+   }
+
+ 
   h1 {
     color:white;
     grid-column: 2/3;
     margin: 3% auto;
     border-bottom: 2px solid black;
+    animation-name: bounceInDown;
+    animation-duration: 1s;
+
+
   }
   
   h2 {
@@ -77,6 +111,8 @@ body {
     grid-column: 2/3;
     margin: 3% auto;
     font-style: bold;
+    animation-name: jello;
+    animation-duration: 2s;
   }
   
   button {
