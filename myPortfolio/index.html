@@ -6,24 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/animate.css">
     <title>My Portfolio</title>
 </head>
 
 <body>
     <header>
-        <img src="Images/J logo.PNG" class="logo" alt="jlogo">
+        <img src="Images/J logo.PNG" class="logo " alt="jlogo">
         <nav>
-            <a class='has-border' href='src/resume.html'>Resume</a>
-            <a href="src/aboutme.html" class='has-border'>About Me</a>
-            <a class='has-border' href="src/blog.html">My Blog</a>
-            <a href="src/contact-page.html" class='has-border'>Contact</a>
+            <a class='has-border animated slideInDown delay-3s' href='src/resume.html'>Resume</a>
+            <a href="src/aboutme.html" class='has-border animated slideInDown delay-3s'>About Me</a>
+            <a class='has-border animated slideInDown delay-3s' href="src/blog.html">My Blog</a>
+            <a href="src/contact-page.html" class='has-border animated slideInDown delay-3s'>Contact</a>
         </nav>
     </header>
     <main>
-        <img src="Images/Image 2-4-19 at 8.14 PM.jpg" id="profile-pic" alt="Headshot of Me">
-        <h1>Jaimee Herrera</h1>
-        <h2>Student of Web Development</h2>
-        <div class="Portfolio"> <a href="src/portfolio.html"><button id="Portfolio">Portfolio</button></a></div>
+    <div class="snowflakes">
+        <img src="Images/snowflakes_PNG7578.png" width="15px" class="snow" alt="snowflake">
+        <img src="Images/snowflakes_PNG7578.png" width="18px" class="snow" alt="snowflake">
+        <img src="Images/snowflakes_PNG7578.png" width="11px" class="snow" alt="snowflake">
+        <img src="Images/snowflakes_PNG7578.png" width="17px" class="snow" alt="snowflake">
+        <img src="Images/snowflakes_PNG7578.png" width="12px" class="snow" alt="snowflake">
+        <img src="Images/snowflakes_PNG7578.png" width="10px" class="snow" alt="snowflake">
+        <img src="Images/snowflakes_PNG7578.png" width="12px" class="snow" alt="snowflake">
+    </div>
+        <img src="Images/Image 2-4-19 at 8.14 PM.jpg" id="profile-pic" class="" alt="Headshot of Me">
+        <h1 class="animated jello delay-2 animate jello">Jaimee Herrera</h1>
+        <h2 class="animated jello delay-2 animated bounceOut delay-4">Student of Web Development</h2>
+        <div class="Portfolio animated slideInDown delay-3s"> <a href="src/portfolio.html">
+                <button id="Portfolio">Portfolio</button></a></div>
     </main>
 </body>
 
