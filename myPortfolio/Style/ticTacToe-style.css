@@ -1,0 +1,17 @@
+
+
+#gameboard {
+    width: 300px;
+    height: 300px;
+    border: 12px solid rgb(0, 0, 0);
+  }
+  
+  .square {
+   float: left;
+   width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 80px;
+    box-shadow:0px 0px 0px 1px  inset;
+  }
+  
