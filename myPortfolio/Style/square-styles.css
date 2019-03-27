@@ -1,64 +1,126 @@
+body { 
+    background-size: 100%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 { 
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
 .box1 { 
     width: 50px; 
     height: 50px;
     background-color: red;
     margin: 5px;
+    transition: all 0.75s ease-in-out;
 }
+    
+.container:hover .box1 {
+    transform: scale(2) translateX(200px) rotate(-180deg);
+    }
 
+    .box9 { 
+
+        width: 50px; 
+        height: 50px;
+        background-color: plum;
+        margin: 5px;
+        transition: all 0.75 ease-in-out;
+        
+    }
+    .container:hover .box9{
+        transform: scale(2) translateX(200px) rotate(-360deg);
+
+    }
 .box2 { 
    width: 50px; 
     height: 50px;
     margin:5px; 
     background-color: blue;
+    transition: all 0.75s ease-in-out;
 }
-.box3 { 
+.container:hover .box2 {
+    transform: scale(0.5) translateX(-900px) rotate(360deg);
+    }
 
+.box3 { 
     width: 50px; 
     height: 50px;
     background-color:pink;
     margin: 5px;
+    transition:  all 0.75s ease-in-out;
 }
+.container:hover .box3 {
+    transform: scale(2) translateX(200px) rotate(-360deg);
+    }
 .box4 { 
-
     width: 50px; 
     height: 50px;
     background-color:black;
     margin: 5px;
+    transition: all 0.75s ease-in-out;
 }
+.container:hover .box4 {
+    transform: scale(0.5) translateX(-900px) rotate(360deg);
+    }
 .box5 { 
-  
     width: 50px; 
     height: 50px;
     background-color:orange;
     margin: 5px;
+    transition: all 0.75s ease-in-out;
+}
+.container:hover .box5 {
+    transform: scale(2) translateX(200px) rotate(-360deg);
 }
 .box6 { 
- 
-    width: 50px; 
+      width: 50px; 
     height: 50px;
     background-color: green;
-    margin: 5px;
+    margin: 5px;  
+    transition: all 0.75s ease-in-out;
+    
 }
+.container:hover .box6 {
+    transform: scale(0.5) translateX(-900px) rotate(360deg);
+    }
 .box7 { 
-
-    width: 50px; 
-    height: 50px;
+   width: 50px;
+     height: 50px;
     background-color: maroon;
     margin: 5px;
+    transition: all 0.75s ease-in-out;
 }
-.box8 { 
+.container:hover .box7 {
+    transform: scale(2) translateX(200px) rotate(-360deg);
+}
 
-    width: 50px; 
+.box8 { 
+     width: 50px; 
     height: 50px;
     background-color:fuchsia;
     margin: 5px;
+    transition: all 0.75s ease-in-out;
 }
+.container:hover .box7 {
+    transform: scale(2) translateX(200px) rotate(-360deg);
+}
+
 .box9 { 
 
     width: 50px; 
-    height: 50px;
+    height: 50px; 
     background-color: plum;
     margin: 5px;
+    transition: all 0.75s ease-in-out;
+    
+}
+.container:hover .box9{
+    transform: scale(2) translateX(200px) rotate(-360deg);
 }
 .box10{ 
 
@@ -68,11 +130,17 @@
     margin: 5px;
 }
 .box11 { 
-
     width: 50px; 
     height: 50px;
     background-color: yellow;
     margin: 5px;
+    transition: all 0.75s ease-in-out;
+    
+    
+}
+
+.container:hover .box11{
+    transform: scale(2) translateX(200px) rotate(-180deg); 
 }
 .box12 { 
 
@@ -80,20 +148,11 @@
     height: 50px;
     background-color: yellow;
     margin: 5px;
-    transition-property: top, left;
-        transition-duration: 1s, 1s;
-        transition-delay: 0s, 1s;
+    transition: all 0.75s ease-in-out;
+ 
 
 }
- .box1:hover{ 
-    width: 200px;
-    height: 200px;
-  }
-.box3:hover{
-    width: 200px;
-    height: 200px;
-    -webkit-transition: all 4s ease;
-    -moz-transition: all 4s ease;
-    -o-transition: all 4s ease;
-    transition: all 4s ease;
+.container:hover .box12 {
+    transform: scale(2) translateX(200px) rotate(-360deg);
+}
 }
