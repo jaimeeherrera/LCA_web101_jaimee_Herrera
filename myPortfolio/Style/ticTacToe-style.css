@@ -1,7 +1,12 @@
 *{ 
-  margin-left: 0;
-  margin-right: 0;
+  
+}
 
+h1 { 
+  text-align: center;
+  margin-right:175px;
+  text-transform: uppercase;
+  font-style: san
 }
 
 #gameboard  {
@@ -11,7 +16,7 @@
   min-height:300px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; 
-  margin-left: calc(50vw- 150px);
+  margin-left:350px;
 }
 
 .piece-block { 
@@ -30,15 +35,30 @@
   min-height: 150px; 
   margin-left: calc(50vw- 150px);
   text-align:center;
+  background-color: plum;
 }
 
-.button { 
-    width: 100px; 
-    height: 100px;
+#btnx { 
+    width: 50px; 
+    height: 50px;
     border-radius:15px;
-    font-size
+    font-size: 35px;
+    margin-left: 425px;
+  
 
 }
 
+#btno {
+  width:50px;
+  height: 50px;
+  border-radius: 16%;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+#square1, #square2, #square3, #square4, #square5, #square6, #square6, #square7, #square8 ,#square9 { 
+  font-size: 75px;
+}
 
 
