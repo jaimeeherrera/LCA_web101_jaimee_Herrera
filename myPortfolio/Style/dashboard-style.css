@@ -19,6 +19,36 @@
       nav {
         background-color: hsl(0, 1%, 18%);
         grid-area: nav;
+        
+      }
+      .item {
+        background-color: #fff;
+        color: #000;
+      }
+      
+      input[type='text'] {
+        font-size: 12px;
+        padding: 6px;
+        border: 1px solid #000;
+        border-radius: 3px;
+      }
+      
+      input[type='submit'] {
+        background-color: #fff;
+        color: #000;
+        border-radius: 8px;
+        border: none;
+        padding: 5px;
+      }
+      
+      #newItemButton {
+        display: none;
+      }
+      
+      #itemField {
+        margin-top: 60px;
+        margin-left: 10px;
+        width: 60%;
       }
       aside {
         background-color: lightgreen;
