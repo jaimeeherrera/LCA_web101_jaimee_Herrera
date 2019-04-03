@@ -49,6 +49,71 @@
   .nav > #nav-check {
     display: none;
   }
+
+  .hero { 
+    width: 100vw;
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../Images/s-o-c-i-a-l-c-u-t-1075434-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+h1 { 
+  font-family: 'Rock Salt', cursive;
+  font-size: 50px;
+}
+.options1 { 
+  background-color:rgb(233, 132, 169);
+  display: flexbox;
+  display: inline-block;
+  padding: 20px;
+  width:100%;
+  
+}
+
+.options1 { 
+  text-align: center;
+  display: flex;
+ padding-left: 40px;
+  border: 12px;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 70px;
+}
+.contact-pane1 {
+  
+  width: 1fr;
+  padding-right: 40px;
+  margin-right: 30px;
+  align-self: auto;
+  text-align: center;
+  background-color: green;
+}
+
+.contact-pane2 { 
+  width: 1fr;
+  padding: 45px;
+  align-self: auto;
+  text-align: center;
+
+  
+}
+
+.contact-pane3 { 
+  width: 1fr;
+  padding: 40px;
+  align-self: auto;
+  text-align: center;
+
+
+}
+
   
   @media (max-width:600px) {
     .nav > .nav-btn {
@@ -61,7 +126,21 @@
       display: inline-block;
       width: 50px;
       height: 50px;
-      padding: 13px;
+      padding: .hero { 
+    width: 100vw;
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../Images/coding.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+13px;
     }
     .nav > .nav-btn > label:hover {
       background-color: rgba(0, 0, 0, 0.3);

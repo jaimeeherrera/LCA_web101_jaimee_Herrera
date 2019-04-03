@@ -5,19 +5,79 @@
         background-color: black;
         grid-area: header;
       }
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+      
+      .dropdown .dropbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+      
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: pink;
+        color:black;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
       main {
         background-color: #333131d8;
         min-height: calc(100vh - 54px);
         grid-area: main;
         text-align: center;
         font-size: 20px;
-        background-image: url(../Images/download.jpg) ;
+        background-image: url(../Images/photo-1482686115713-0fbcaced6e28.jpg) ;
         background-repeat: no-repeat;
         background-size: 100%;
       }
     
       nav {
-        background-color: hsl(0, 1%, 18%);
+        background-color: white(0, 1%, 18%);
         grid-area: nav;
         
       }
@@ -31,6 +91,7 @@
         padding: 6px;
         border: 1px solid #000;
         border-radius: 3px;
+        color: black;
       }
       
       input[type='submit'] {
@@ -43,15 +104,17 @@
       
       #newItemButton {
         display: none;
+        color:black;
       }
       
       #itemField {
         margin-top: 60px;
         margin-left: 10px;
         width: 60%;
+        color:black;
       }
       aside {
-        background-color: lightgreen;
+        background-color: grey;
         grid-area: aside;
       }
       .banner {
@@ -61,6 +124,38 @@
       footer {
         background-color: black;
         grid-area: footer;
+      }
+      .geolocation {
+        background-color: black; 
+        grid-area: geo;
+        width: 100%;
+        height: 200px;
+      }
+         h2 , #geotitle { 
+           color:black;
+           text-align: center;
+         }
+         #button-location {
+          color: black;
+          font-size: 23px;
+          font-weight: bold;
+          text-transform: uppercase;
+          background-color: white;
+          margin-top:1%;
+          margin-left: 42%;
+          border-radius: 2%;
+         }
+
+         #button-location:hover {
+           background-color: black;
+           color: white;
+         }
+
+      #my-coordinates { 
+        color: white;
+        font-size: 24px;
+        margin: 24px;
+        text-align: center;
       }
 
       .container {
@@ -72,6 +167,7 @@
           "content"
           "aside"
           "banner"
+          "geo"
           "footer";
       
       }
@@ -107,9 +203,9 @@
           height: 35px;
           width: 55px;
           flex-wrap: row;
-          background-color: white;
           font-size: 23px;
           text-align: center;
+          color:black;
       }
 
       #zero {
@@ -118,30 +214,43 @@
           text-shadow: #333131d8;
 
       }
+      .todo { 
+
+      }
+
+      h1 {
+        padding-bottom: -50px;
+      }
   
       p {
           font-size: 2em;
-          margin: 80px;
+          margin: 90px;
+      }
+      
+      .pfont { 
+        font-size: 35px;
+        padding-bottom: 200px;
+        padding-top: 20px;
+        
       }
 
       a {
           text-align: left;
           font-size: 1em;
-          font-family: ariel;
+         font-family: 'Lato', sans-serif;
           text-decoration: none;
-          color: rgb(255, 255, 255);
-          text-transform: uppercase;
+          color: black;
+        
           
       }
 
       h2 { 
-          text-transform: uppercase;
           font-family: Arial, Helvetica, sans-serif;
+          padding-right: 20px;
           
       }
 
       h3 {
-        text-transform: uppercase; 
         font-family: Arial, Helvetica, sans-serif;
         color: black;
         width: 80%;
@@ -149,7 +258,7 @@
       }
 
       ul {
-          color: white;
+          color: black;
       }
 
       
@@ -197,14 +306,19 @@
         font-size: 30px;    
         text-align: center;
       }
-          
+      
+      .month { 
+        background-color: white;
+        font-size: 45px;
+        border-bottom: solid 2px black;
+      }
       .calendar { 
           display:grid;
           display: inline;
           color: black;
           background-color: white;
           grid-gap:10px;
-          width: 80%;
+          width: 100%;
       }
 
       .days {
@@ -214,9 +328,10 @@
         grid-gap: 2px 5px;
         background-color: white;
         font-weight: bold;
+        font-size: 12px;
         border-bottom: black;
         text-transform: uppercase;
-        width: 80%;
+        width: 100%;
 
       }
 
@@ -225,17 +340,17 @@
         grid-template-columns: repeat(7, 1fr);
         grid-auto-flow: dense;
         grid-gap: 2px 10px;
-        background-color: white;
-        border-bottom: black;
+        background-color: pink;
+        border-bottom: bold 3px black;
         justify-content: space-around;
         padding: 10px 2px 2px;
-        width: 80%;
+        width: 100%;
     
 
       }
 
       .one {
-        background-color: white;
+        background-color:black;
         color: red;
       }
         
@@ -247,8 +362,11 @@
             "nav"
             "aside"
             "main"
-            "banner"
-             "footer";
+            ;
+        }
+
+        nav {
+          width:50%;
         }
 
     
@@ -268,10 +386,6 @@
       
         }
 
-        footer {
-          background-color: pink;
-
-        }
         .days {
           width: 2px;
           font-size:14px;
