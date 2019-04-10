@@ -1,0 +1,79 @@
+/* this is my nav */
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: #302e2e;
+    position: relative;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #B39BC8;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+
+  .movie { 
+      padding-left:150px;
+      padding-top: 50px;
+  }
+  
+  .articlebox { 
+      display:flex;
+  }
+  .articletitle { 
+     text-align: center;
+    font-size:50px;
+    padding:30px;
+  }
+
+  P { 
+      font-size: 22px;
+      padding: 10px;
+  }
+
+  .title1 { 
+      background-color: #2bcdc0;
+      font:white;
+      font-style:bold;
+      align-content: center;
+      align-items: center;
+      text-align: center;
+  }
+
+  .title {
+      width: 155px;
+      height: 10px;
+      padding: 20px;
+      font: white;
+      background-color: #2bcdc0;
+  }
