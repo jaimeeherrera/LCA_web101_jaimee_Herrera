@@ -73,7 +73,8 @@
         font-size: 20px;
         background-image: url(../Images/photo-1482686115713-0fbcaced6e28.jpg) ;
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 100% 50%;
+      
       }
     
       nav {
@@ -114,7 +115,6 @@
         color:black;
       }
       aside {
-        background-color: grey;
         grid-area: aside;
       }
       .banner {
@@ -172,6 +172,7 @@
       
       }
       .calculator {
+        margin-top: 10px;
         width: 250px;
         height: 280px;
         display: flex;
@@ -317,7 +318,7 @@
           display: inline;
           color: black;
           background-color: white;
-          grid-gap:10px;
+          grid-gap:0px;
           width: 100%;
       }
 
@@ -353,7 +354,15 @@
         background-color:black;
         color: red;
       }
-        
+
+      .game { 
+       padding-top: 20px;
+      }
+      
+      .polo  { 
+        background-color: white;
+        text-align: center;
+      }
       
 
       @media (max-width: 576px) {
@@ -364,12 +373,21 @@
             "aside"
             "main"
             ;
+        
         }
 
         nav {
-          width:50%;
+          width:100%;
+     
         }
 
+      
+        
+
+        .clock { 
+          align-content: center;
+          align-self: center;
+        }
     
         main { 
 
