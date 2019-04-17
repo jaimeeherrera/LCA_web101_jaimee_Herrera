@@ -45,3 +45,24 @@ function startTime() {
     document.getElementById("weekdays").innerHTML = "Today is " + weekdays[today.getDay()];
 }
 startTime();
+
+function addNumber(num) {
+    document.querySelector("#results").value +=
+        num;
+}
+function clearResults() {
+    document.querySelector("#results").value = "";
+}
+function addition() {
+    document.querySelector("#results").value += "+";
+}
+
+function multiply() {
+    document.querySelector("#results").value += "*";
+}
+function divide() {
+    document.querySelector("#results").value += "/";
+}
+function equals() {
+    document.querySelector("#results").value = eval(document.querySelector("#results").value);
+}
